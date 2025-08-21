@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SharkMath Recreation
 
-## Getting Started
+## Design Choice
 
-First, run the development server:
+### Why I Chose Design Recreation
+I selected the design recreation task because it best demonstrates the frontend skills mentioned in the job posting - translating designs into pixel-perfect implementations and working with modern component architecture.
 
+### Why I Chose the Math Shark Design
+I chose the Math Shark design because it presents the right level of technical challenge for showcasing my abilities. The layout includes complex elements and interesting components and UI patterns. I want to demonstrate my skills in responsive and modern design.
+
+## Setup Instructions
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Project available on http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Focus Areas
+- **Responsive Scaling**: Advanced responsive design with fluid typography and spacing
+- **Accessibility**: Keyboard navigation and screen reader support
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Implementation Details
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Architecture Decisions
+### Component Structure
+.
 
-To learn more about Next.js, take a look at the following resources:
+## Performance Optimizations
+.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Future Improvements
+.
