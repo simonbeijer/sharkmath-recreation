@@ -14,6 +14,8 @@
 .claude
 # claude hook logs
 logs
+# Claude Code context file
+overview.md
 
 # testing
 /coverage
