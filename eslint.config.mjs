@@ -10,12 +10,24 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
+  ...compat.extends("next/core-web-vitals", "next/typescript", "prettier"),
   {
+    rules: {
+      // Enforce consistent import order
+      "@typescript-eslint/consistent-type-imports": "error",
+      // Prevent unused variables except those starting with _
+      "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+      // Consistent naming conventions
+      "@typescript-eslint/naming-convention": [
+        "error",
+        { "selector": "typeAlias", "format": ["PascalCase"] },
+        { "selector": "interface", "format": ["PascalCase"] }
+      ],
+    },
     ignores: [
       "node_modules/**",
       ".next/**",
-      "out/**",
+      "out/**", 
       "build/**",
       "next-env.d.ts",
     ],
